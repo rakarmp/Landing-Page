@@ -2,15 +2,13 @@ import React, { useState } from "react";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 
-import logo from "../../assets/logo.png";
-
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={logo} alt="logo" />
+        <img src="assets/logo.png" alt="logo" />
       </div>
       <ul className="app__navbar-links">
         {["home", "about", "work", "skills", "contact"].map((item) => (

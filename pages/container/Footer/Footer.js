@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-
-import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
 
@@ -39,21 +37,24 @@ const Footer = () => {
       .catch((err) => console.log(err));
   };
 
+  const emailIcons = "assets/email.png";
+  const phoneIcons = "assets/mobile.png";
+
   return (
     <>
-      <h2 className="head-text">Take a coffee & chat with me</h2>
+      <h2 className="head-text">Ngopi Bareng & Chat Aku</h2>
 
       <div className="app__footer-cards">
         <div className="app__footer-card ">
-          <img src={images.email} alt="email" />
-          <a href="mailto:hello@micael.com" className="p-text">
-            hello@micael.com
+          <img src={phoneIcons} alt="email" />
+          <a href="mailto:rakaabdirmp@gmail.com" className="p-text">
+            rakaabdirmp@gmail.com
           </a>
         </div>
         <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+1 (123) 456-7890" className="p-text">
-            +1 (123) 456-7890
+          <img src={emailIcons} alt="phone" />
+          <a href="tel:+62 8954 1618 7586" className="p-text">
+            +62 8954 1618 7586
           </a>
         </div>
       </div>
@@ -63,7 +64,7 @@ const Footer = () => {
             <input
               className="p-text"
               type="text"
-              placeholder="Your Name"
+              placeholder="Nama Kamu"
               name="username"
               value={username}
               onChange={handleChangeInput}
@@ -73,7 +74,7 @@ const Footer = () => {
             <input
               className="p-text"
               type="email"
-              placeholder="Your Email"
+              placeholder="Email Kamu"
               name="email"
               value={email}
               onChange={handleChangeInput}
@@ -82,19 +83,19 @@ const Footer = () => {
           <div>
             <textarea
               className="p-text"
-              placeholder="Your Message"
+              placeholder="Pesan Kamu Ke Aku"
               value={message}
               name="message"
               onChange={handleChangeInput}
             />
           </div>
           <button type="button" className="p-text" onClick={handleSubmit}>
-            {!loading ? "Send Message" : "Sending..."}
+            {!loading ? "Kirim Pesan" : "Sedang Dikirim ..."}
           </button>
         </div>
       ) : (
         <div>
-          <h3 className="head-text">Thank you for getting in touch!</h3>
+          <h3 className="head-text">Makasih Udah Mau Liat" !</h3>
         </div>
       )}
     </>
