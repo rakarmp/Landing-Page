@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing Page
+
+Ini Hanya Project Crash Course Saya Untuk Portfolio, Anda Juga Bisa Menggunakannya
+Dan Memodifikasinya Dengan Mudah Tapi Eitshhh... Bentar Ini Masih On Progress Yaa...
+
+## Description
+
+Portfolio Landing Page Menggunakan Next Js Sebagai FrontEnd Dan Sanity Sebagai BackEnd
+Dan Ngga Terlewat Juga Framer Motion Dan Scss Nya Untuk Mempercantik Tampilannya
 
 ## Getting Started
 
-First, run the development server:
+### Dependencies
 
-```bash
+- Next JS
+- Sanity
+- Framer Motion
+- React Icons
+- Node Sass
+- React Tooltip
+
+### Installing
+
+- Clone Saja Repositorinya
+- Modifikasi Sesuka Kamu Di Folder pages
+
+### Executing program
+
+- Petunjuk Untuk Menjalankan Programnya
+- Step-by-step
+
+```
+// Front End
+npm install
+// Untuk Menjalankannya
 npm run dev
-# or
+// Untuk Membuildnya
+npm run build
+```
+
+```
+// Back End
+yarn install
+// atau
+yarn
+// Untuk Menjalankannya
+yarn dev
+// Untuk Membuildnya
+yarn build
+```
+
+## Help
+
+Kalau Program Ada Error Atau Apa Coba Ikuti Langkah-langkah Ini
+
+```
+rm -rf node_modules
+// Terus
+npm install
+npm run dev
+// Untuk Backend
+yarn install
+yarn clear cache
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Authors
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Contributors names and contact info
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+ex. [@rakarmp_fja](https://instagram.com/rakarmp_fja)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Version History
 
-## Learn More
+- 0.1
+  - On Progress
 
-To learn more about Next.js, take a look at the following resources:
+## Acknowledgments
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Inspiration, code snippets, etc.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [awesome-readme](https://github.com/matiassingers/awesome-readme)
+- [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
+- [dbader](https://github.com/dbader/readme-template)
+- [zenorocha](https://gist.github.com/zenorocha/4526327)
+- [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com)
