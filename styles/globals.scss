@@ -116,7 +116,7 @@
       align-items: flex-end;
       flex-direction: column;
       
-      background: url('../pages/assets/bgWhite.png');
+      background: url('../public/assets/bgWhite.png');
       background-color: var(--white-color);
       background-size: cover;
       background-repeat: repeat;
@@ -531,7 +531,7 @@
 
   #home {
     position: relative;
-    background: url("../pages/assets/bgIMG.png");
+    background: url("../public/assets/bgIMG.png");
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
