@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Navbar } from "./components";
-import { About, Footer, Header, Skills, Testimonial, Work } from "./container";
+import { Header } from "./container";
 
 export default function Home() {
   return (
@@ -14,11 +14,11 @@ export default function Home() {
       <div className="app">
         <Navbar />
         <Header />
-        <About />
+        {/* <About />
         <Work />
         <Skills />
         <Testimonial />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );
